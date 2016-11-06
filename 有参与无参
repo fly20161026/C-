@@ -1,0 +1,17 @@
+#include <stdio.h>//有参与无参
+int f()
+{
+	printf("小明在慕课网上学习\n");
+	return 0;
+}
+int g(int x)
+{
+	printf("小明已经在慕课网上学习了%d门课程\n",x);
+	return 0;
+}
+int main()
+{
+	f();//前面没有数据类型
+	g(33);
+	return 0;
+}
